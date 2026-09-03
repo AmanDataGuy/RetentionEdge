@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RetentionEdge — cached dataset pulls / generated artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# internal working docs, not part of the repo deliverable
+/plan.md
+/resume_bullet.md
